@@ -139,7 +139,7 @@ header ul {
   padding: 94px 0;
 }
 .solutions.bg-solutions {
-  background-image: url("./images/mainbackgraond.jpg");
+  background-image: url("/images/mainbackgraond.jpg");
   display: flex;
   align-items: center;
   justify-content: center;
