@@ -143,14 +143,13 @@ header ul {
   background-blend-mode: overlay;
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
   flex-direction: column;
   left: -4px;
   top: 80px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   height: 600px;
   padding: 200px var(--container-padding);
+  position: relative;
 }
 .solutions .solutions-title {
   color: var(--primary-white-color);
@@ -163,7 +162,7 @@ header ul {
   text-transform: uppercase;
   width: 696px;
   height: 120px;
-
+  position: relative;
   z-index: 5;
 }
 .button-primary {
@@ -173,12 +172,12 @@ header ul {
   text-transform: none;
   width: 200px;
   height: 50px;
-  top: 430px;
   margin-top: 30px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+  position: relative;
   z-index: 5;
 }
 .button-primary:hover,
