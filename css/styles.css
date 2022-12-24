@@ -139,7 +139,7 @@ header ul {
   padding: 94px 0;
 }
 .solutions.bg-solutions {
-  background-image: url("/images/mainbackgraond.jpg");
+  background-image: url("./images/mainbackgraond.jpg");
   display: flex;
   align-items: center;
   justify-content: center;
@@ -472,8 +472,8 @@ header ul {
   padding-bottom: 20px;
 }
 .portfolio .list.img li:hover,
-.portfolio .list.img li a:focus{
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+.portfolio .list.img li a:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .list.img .portfolio-title {
@@ -519,7 +519,7 @@ address .contact {
   gap: 70px;
 }
 .footer .h3 {
-  font-family: 'ROBOTO', sans-serif;
+  font-family: "ROBOTO", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
