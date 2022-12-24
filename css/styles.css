@@ -140,6 +140,7 @@ header ul {
 }
 .solutions.bg-solutions {
   background: url("../images/mainbackgraond.jpg");
+  background-blend-mode: overlay;
   display: flex;
   align-items: center;
   justify-content: center;
