@@ -139,17 +139,19 @@ header ul {
   padding: 94px 0;
 }
 .solutions.bg-solutions {
-  background: url("../images/mainbackgraond.jpg");
-  background-blend-mode: overlay;
+  background:linear-gradient(var(--banner-gray),
+   var(--banner-gray)),
+  url('../images/mainbackgraond.jpg');
+  background-size: cover;
   display: flex;
   align-items: center;
   flex-direction: column;
-  left: -4px;
-  top: 80px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   height: 600px;
   padding: 200px var(--container-padding);
   position: relative;
+
+  max-width: 1600px;
 }
 .solutions .solutions-title {
   color: var(--primary-white-color);
@@ -185,14 +187,7 @@ header ul {
   background-color: var(--button-primary-hover);
   cursor: pointer;
 }
-.solutions__overlay {
-  position: absolute;
-  background: var(--banner-gray);
-  top: -5px;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
+
 .no-top-padding {
   padding-top: 0px;
   margin-top: 99px;
@@ -516,7 +511,7 @@ address .contact {
   flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
-  padding-left: 170px;
+  padding-left: 138px;
   gap: 70px;
 }
 .footer .h3 {
