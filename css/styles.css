@@ -240,6 +240,12 @@ header ul {
   text-align: center;
   color: var(--primary-black-color);
   gap: 5px;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+.container__what-do-we {
+  margin: 0;
+  padding: 0;
 }
 .section.what-we-do ul {
   display: flex;
@@ -377,6 +383,7 @@ header ul {
   gap: 40px;
   margin: 44.02px auto 5px auto;
   width: 1170px;
+  margin: 0, 215;
 }
 .section__customers .ul .li {
   display: flex;
@@ -511,7 +518,7 @@ address .contact {
   flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
-  padding-left: 138px;
+  padding-left: 190px;
   gap: 70px;
 }
 .footer .h3 {
